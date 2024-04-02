@@ -1,0 +1,15 @@
+@import '../global.scss';
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:$bg_secondary_dark;
+
+    a{
+        margin:0 5%;
+    }
+}
