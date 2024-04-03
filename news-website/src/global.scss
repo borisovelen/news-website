@@ -1,10 +1,15 @@
-$bg_primary: #ffffff;
-$bg_secondary: #f5f5f5;
+$bg: #ffffff;
+$bg_primary: #f5f5f5;
 $text_color: #222831;
+$text_color_light: #f5f5f5;
+$bg_navigation: linear-gradient(90deg, rgba(0,130,252,1) 0%, rgba(0,91,197,1) 100%);
+//$bg_navigation: #0082fc;
+$active: #005bc5;
 
 
 @media (prefers-color-scheme: dark) {
-    $bg_primary: #222831;
-    $bg_secondary: #31363F;
-    $text_color: #ffffff;
+    $bg: #222831;
+    $bg_primary: #31363F;
+    $text_color: #f5f5f5;
+    $text_color_light: #222831;
 } 
